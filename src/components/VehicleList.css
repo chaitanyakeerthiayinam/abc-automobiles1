@@ -1,0 +1,6 @@
+.vehicle-list-background {
+    background-image: url(''); /* Set your background image */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image */
+    padding: 20px; /* Add some padding to ensure the content is not too close to the edges */
+}

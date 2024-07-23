@@ -1,0 +1,136 @@
+{
+  "vehicles": [
+    {
+      "id": "1",
+      "image": "https://imgd.aeplcdn.com/370x208/n/cw/ec/42355/xuv700-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
+      "name": "Mahindra XUV",
+      "price": "5,25,904",
+      "mileage": "19000",
+      "color": "white",
+      "seats": "5",
+      "fuel": "petrol",
+      "gear": "Automatic",
+      "description": "A reliable family car"
+    },
+    {
+      "id": "2",
+      "image": "https://imgd.aeplcdn.com/370x208/n/cw/ec/121943/verna-exterior-right-front-three-quarter-101.jpeg?isig=0&q=80",
+      "name": "Ferrari",
+      "price": "99,25,904",
+      "mileage": "18000",
+      "color": "Black",
+      "seats": "4",
+      "fuel": "petrol",
+      "gear": "Manual",
+      "description": "Racing car"
+    },
+    {
+      "id": "3",
+      "image": "https://imgd.aeplcdn.com/370x208/n/cw/ec/106815/creta-exterior-right-front-three-quarter-4.png?isig=0&q=80",
+      "name": "Hyundai Creta",
+      "price": "12,25,904",
+      "mileage": "18000",
+      "color": "Grey",
+      "seats": "4",
+      "fuel": "disel",
+      "gear": "Automatic",
+      "description": "A reliable family car"
+    },
+    {
+      "id": "4",
+      "image": "https://imgd.aeplcdn.com/370x208/n/cw/ec/130591/fronx-exterior-right-front-three-quarter-109.jpeg?isig=0&q=80",
+      "name": "Maruthi Suzuki",
+      "price": "925,904",
+      "mileage": "17000",
+      "color": "Brown",
+      "seats": "7",
+      "fuel": "disel",
+      "gear": "Manual",
+      "description": "Stylish, sleek looking vehicles that offer elegant city driving but also handle rugged terrain thanks to a typical capability."
+    },
+    {
+      "id": "5",
+      "image": "https://imgd.aeplcdn.com/370x208/n/cw/ec/156405/xuv-3xo-exterior-right-front-three-quarter-33.jpeg?isig=0&q=80",
+      "name": "Toyota Urban",
+      "price": "20,97,851",
+      "mileage": "15000",
+      "color": "Black",
+      "seats": "6",
+      "fuel": "petrol",
+      "gear": "Automatic",
+      "description": "Stylish, sleek looking vehicles that offer elegant city driving but also handle rugged terrain thanks to a typical capability."
+    },
+    {
+      "id": "6",
+      "image": "https://imgd.aeplcdn.com/370x208/n/cw/ec/121943/verna-exterior-right-front-three-quarter-101.jpeg?isig=0&q=80",
+      "name": "Tata Punch",
+      "price": "23,97,583",
+      "mileage": "17000",
+      "color": "White",
+      "seats": "4",
+      "fuel": "petrol",
+      "gear": "Manual",
+      "description": "4-door passenger car with a trunk that is separate from the passengers with a three-box body."
+    },
+    {
+      "id": "7",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCb5cDtFZafuHt99PuaIsVEgdtQWdXVfiNsujrR6V22vNzuIPMQ3SJRy-1nCTNDJ4LITE&usqp=CAU",
+      "name": "Mahindra Scorpio",
+      "price": "5,25,904",
+      "mileage": "20000",
+      "color": "white",
+      "seats": "5",
+      "fuel": "petrol",
+      "gear": "Manual",
+      "description": "4-door passenger car with a trunk that is separate from the passengers with a three-box body."
+    },
+    {
+      "id": "8",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1fkR8lPonV0ZwJ-pG7sZcTfA4ouFtPX6BIXvh2Z8RSiU_2_MTh4zQc3W29uDCJO1uSQ&usqp=CAU",
+      "name": "Kia Seltos",
+      "price": "5,25,904",
+      "mileage": "30000",
+      "color": "silver",
+      "seats": "6",
+      "fuel": "petrol",
+      "gear": "Manual",
+      "description": "A reliable family car."
+    },
+    {
+      "id": "9",
+      "image": "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?cs=srgb&dl=pexels-mikebirdy-120049.jpg&fm=jpg",
+      "name": "Tata Herrier",
+      "price": "5,25,904",
+      "mileage": "12000",
+      "color": "Grey",
+      "seats": "7",
+      "fuel": "disel",
+      "gear": "Automatic",
+      "description": "Stylish, sleek looking vehicles that offer elegant city driving."
+    },
+    {
+      "id": "10",
+      "image": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Toyota Corolla",
+      "price": "40,00,000",
+      "mileage": "15000",
+      "color": "Black",
+      "seats": "5",
+      "fuel": "petrol",
+      "gear": "Automatic",
+      "description": "A reliable family car."
+    },
+    {
+      "id": "c998",
+      "image": "data:image/jpeg;base64,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",
+      "name": "Ferrari",
+      "price": 68098656,
+      "mileage": 15000,
+      "color": "yellow",
+      "seats": 1,
+      "fuel": "petrol",
+      "gear": "Automatic",
+      "description": "Super speed with great comfort"
+    }
+  ]
+}
