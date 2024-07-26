@@ -1,7 +1,6 @@
 {
   "vehicles": [
     {
-      "id": "1",
       "image": "https://imgd.aeplcdn.com/370x208/n/cw/ec/42355/xuv700-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
       "name": "Mahindra XUV",
       "price": 525904,
@@ -10,10 +9,10 @@
       "seats": 5,
       "fuel": "petrol",
       "gear": "Automatic",
-      "description": "A reliable family car"
+      "description": "A reliable family car",
+      "id": "1"
     },
     {
-      "id": "3",
       "image": "https://imgd.aeplcdn.com/370x208/n/cw/ec/106815/creta-exterior-right-front-three-quarter-4.png?isig=0&q=80",
       "name": "Hyundai Creta",
       "price": 25904,
@@ -22,7 +21,8 @@
       "seats": 4,
       "fuel": "disel",
       "gear": "Automatic",
-      "description": "A reliable family car"
+      "description": "A reliable famil",
+      "id": "3"
     },
     {
       "id": "4",
@@ -85,16 +85,16 @@
       "description": "A reliable family car."
     },
     {
-      "id": "9",
       "image": "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?cs=srgb&dl=pexels-mikebirdy-120049.jpg&fm=jpg",
       "name": "Tata Herrier",
       "price": 565904,
       "mileage": 12000,
       "color": "Grey",
-      "seats": 7,
+      "seats": 6,
       "fuel": "disel",
       "gear": "Automatic",
-      "description": "Stylish, sleek looking vehicles that offer elegant city driving."
+      "description": "Stylish, sleek looking vehicles that offer elegant city ",
+      "id": "9"
     },
     {
       "id": "10",
@@ -113,12 +113,14 @@
     {
       "username": "admin",
       "password": "admin@123",
-      "role": "admin"
+      "role": "admin",
+      "id": "142c"
     },
     {
       "username": "user1",
       "password": "user@123",
-      "role": "user"
+      "role": "user",
+      "id": "940f"
     }
   ]
 }

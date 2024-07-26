@@ -52,11 +52,11 @@ function UpdateVehicle() {
     }),
     onSubmit: (values, { setSubmitting, resetForm, setStatus }) => {
       axios
-        .put(`http://localhost:5000/vehicles/${id}, values`)
+        .put(`http://localhost:5000/vehicles/${id}`, values)
         .then(()=> {
           setStatus("success");
           resetForm();
-          navigate("/VehicleList");
+          navigate("/vehicle-list");
          })
         
         .catch((error) => {
