@@ -20,7 +20,7 @@
       "color": "Grey",
       "seats": 4,
       "fuel": "disel",
-      "gear": "Automatic",
+      "gear": "MANUAL",
       "description": "A reliable famil",
       "id": "3"
     },
@@ -121,6 +121,12 @@
       "password": "user@123",
       "role": "user",
       "id": "940f"
+    },
+    {
+      "id": "d654",
+      "username": "admin",
+      "password": "admin@123",
+      "role": "admin"
     }
   ]
 }
