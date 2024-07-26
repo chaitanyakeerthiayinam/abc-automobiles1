@@ -11,7 +11,7 @@ function UpdateVehicle() {
   const [vehicle, setVehicle] = useState(null);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/vehicles/${id}")
+      .get(`http://localhost:5000/vehicles/${id}`)
       .then((response) => {
         setVehicle(response.data);
       })
@@ -52,12 +52,13 @@ function UpdateVehicle() {
     }),
     onSubmit: (values, { setSubmitting, resetForm, setStatus }) => {
       axios
-        .put("http://localhost:5000/vehicles/${id}, values")
-        .then(() => {
+        .put(`http://localhost:5000/vehicles/${id}, values`)
+        .then(()=> {
           setStatus("success");
           resetForm();
-          navigate("/vehicle-list");
-        })
+          navigate("/VehicleList");
+         })
+        
         .catch((error) => {
           setStatus("error");
         })
@@ -111,6 +112,7 @@ function UpdateVehicle() {
           ) : null}
         </div>
 
+        
         <div className="mb-3">
           <label htmlFor="price" className="form-label">
             Price
@@ -125,7 +127,6 @@ function UpdateVehicle() {
             value={formik.values.price}
             data-testid="price"
           />
-
           {formik.touched.price && formik.errors.price ? (
             <div className="text-danger">{formik.errors.price}</div>
           ) : null}
@@ -262,6 +263,11 @@ function UpdateVehicle() {
         {formik.status && formik.status === "success" && (
           <span data-testid="response" className="text-success">
             Success
+          </span>
+        )}
+        {formik.status && formik.status ===  'error' && (
+          <span data-testid='response-dange' className='textr' >
+            Error
           </span>
         )}
       </form>

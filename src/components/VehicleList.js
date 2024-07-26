@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router";
+import { Navigate, useNavigate } from "react-router";
 
 function Vehiclelist() {
   const [vehicles, setVehicles] = useState([]);
@@ -13,7 +13,7 @@ function Vehiclelist() {
 
   function fetchvehicle() {
     axios
-      .get("http://localhost:5000/vehicles")
+      .get(`http://localhost:5000/vehicles`)
       .then((response) => {
         setVehicles(response.data);
       })
@@ -23,8 +23,8 @@ function Vehiclelist() {
   }
  
 
-  function deletevehicle(id) {
-    axios.delete("http://localhost:5000/vehicles/${id}")
+  function handleDelete(id) {
+    axios.delete(`http://localhost:5000/vehicles/${id}`)
     .then(() => {
         fetchvehicle();
     })
@@ -62,9 +62,9 @@ function Vehiclelist() {
                 </button>
                 <button
                   className="btn btn-danger"
-                  onClick={() => deletevehicle(vehicle.id)}
+                  onClick={() => handleDelete(vehicle.id)}
                 >
-                  delete
+                  Delete
                 </button>
                 
               </div>

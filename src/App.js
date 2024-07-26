@@ -18,7 +18,7 @@ function App(){
       <Route path="/vehicle-list" element={<VehicleList/>}/>
       <Route path="/AddVehicles" element={<AddVehicle/>}/>
       <Route path="/UpdateVehicle/:id" element = {<UpdateVehicle/>}/>
-
+      
     </Routes>
     <Footer/>
     </>
