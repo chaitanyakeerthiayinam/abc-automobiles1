@@ -29,7 +29,7 @@ function App(){
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/vehicle-list" element={<VehicleList />} />
-        <Route path="/AddVehicles" element={<AddVehicle />} />
+        <Route path="/AddVehicles" element={<ProtectedRoute element={<AddVehicle />} />} />
         <Route path="/UpdateVehicle/:id" element={<UpdateVehicle />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
